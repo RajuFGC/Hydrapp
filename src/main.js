@@ -2,7 +2,7 @@ let count = 0;
 const addButton = document.querySelector('.addGlass--js');
 const removeButton = document.querySelector('.removeGlass--js')
 const countChecker = document.querySelector('.counter--js')
-const key = new Date(2023,9,4). toISOString().slice(0,10)
+const key = new Date(). toISOString().slice(0,10)
 const storedCount = localStorage.getItem(key);
 
 if (storedCount !== null) {
