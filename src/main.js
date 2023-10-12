@@ -1,3 +1,5 @@
+import JSConfetti from 'js-confetti'
+const jsConfetti = new JSConfetti()
 let count = 0;
 const addButton = document.querySelector('.addGlass--js');
 const removeButton = document.querySelector('.removeGlass--js')
@@ -30,6 +32,9 @@ addButton.addEventListener('click',() => {
 count++;
 countChecker.textContent = count;
 localStorage.setItem(key, count.toLocaleString())
+jsConfetti.addConfetti({
+  emojis: ['🌈', '⚡️', '💥', '✨', '💫', '🌸'],
+})
 });
 removeButton.addEventListener('click',() => {
 if (count>0) {
