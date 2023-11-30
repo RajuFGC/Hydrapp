@@ -10,6 +10,6 @@ Hydrapp uses PWA technology so the user can either open it in its browser or ins
 - CSS
 - JavaScript
 
-Please visit [RajuHomepage](https://rajuhydrapp.netlify.app)
+Please visit [Hydrapp](https://rajuhydrapp.netlify.app)
 
 
