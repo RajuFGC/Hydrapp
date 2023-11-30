@@ -6,7 +6,6 @@ Hydrapp uses PWA technology so the user can either open it in its browser or ins
 
 - HTML
 - Flex
-- Grid
 - CSS
 - JavaScript
 
